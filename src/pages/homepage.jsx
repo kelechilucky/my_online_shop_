@@ -1,21 +1,16 @@
 import React from 'react';
 import Navbar from '../components/navbar';
 import CategoryMenu from '../components/categoryMenu';
-import FilterSortBar from '../components/filterSortBar';
 import HomeHero from '../components/homeHero';
-import Sidebar from '../components/sideBar';
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full overflow-x-hidden">
       <Navbar />
       <CategoryMenu />
-      <FilterSortBar />
-      <div className="flex px-6 py-4 space-x-6">
-        <div className="flex-1">
-          <HomeHero />
-        </div>
-        <Sidebar />
+
+      <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 py-4">
+        <HomeHero />
       </div>
     </div>
   );
