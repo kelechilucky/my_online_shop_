@@ -6,7 +6,7 @@ const CategoryMenu = () => {
   const categories = ['Fashion', 'Electronics', 'Food'];
 
   return (
-    <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-8 px-4 sm:px-6 py-2 sm:py-3 bg-white text-sm border-t border-green-100 gap-2 sm:gap-0">
+    <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-8 px-4 sm:px-6 py-2 sm:py-3 bg-white text-lg border-t border-green-100 gap-2 sm:gap-0">
       {/* All Categories Button */}
       <div className="flex items-center space-x-2 bg-[#42C87A] text-white px-4 py-2 sm:px-[80px] sm:py-[40px] rounded cursor-pointer">
         <FaTh className="text-white text-sm" />
