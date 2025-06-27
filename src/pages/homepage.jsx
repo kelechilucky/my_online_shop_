@@ -3,6 +3,8 @@ import Navbar from '../components/navbar';
 import CategoryMenu from '../components/categoryMenu';
 import HomeHero from '../components/homeHero';
 import Benefits from '../components/benefits';
+import FAQ from '../components/FAQ';
+import Footer from '../components/footer';
 
 
 const Home = () => {
@@ -14,7 +16,8 @@ const Home = () => {
       <CategoryMenu />
       <HomeHero />
       <Benefits />
-     
+      <FAQ />
+      <Footer />
     </div>
   );
 };
